@@ -1,0 +1,34 @@
+{
+  "manifest_version": 3,
+  "name": "LuduPro",
+  "description": "Adds global customization to Ludovo along with some QOL.",
+  "version": "1.0",
+  "permissions": [],
+  "host_permissions": [
+    "https://forum.luduvo.com/*",
+    "https://rtdifkkdloqfiazlndez.supabase.co/*"
+  ],
+  "background": {
+    "service_worker": "backgroundProc.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*.luduvo.com/*"],
+      "js": ["lib/supabase.js", "lib/purify.min.js", "api.js", "UI.js", "content.js"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["Assets/luduproChk.png"],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "icons": {
+    "16":  "Assets/icon16.png",
+    "48":  "Assets/icon48.png",
+    "128": "Assets/icon128.png" 
+  }
+}
