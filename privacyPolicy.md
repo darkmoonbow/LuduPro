@@ -85,4 +85,4 @@ This Privacy Policy may be updated at any time. Continued use of the Extension a
 
 For questions or data deletion requests, contact:
 
-[Insert your contact email or support link]
+frozencatbusiness@gmail.com
