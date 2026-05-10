@@ -14,7 +14,7 @@
   "content_scripts": [
     {
       "matches": ["https://*.luduvo.com/*"],
-      "js": ["lib/supabase.js", "lib/purify.min.js", "api.js", "UI.js", "content.js"]
+      "js": ["lib/supabase.js", "lib/purify.min.js", "api.js", "ui.js", "content.js"]
     }
   ],
   "action": {
