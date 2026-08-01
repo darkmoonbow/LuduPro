@@ -2,7 +2,7 @@
 
 **Effective Date:** May 6, 2026
 
-This Privacy Policy describes how the browser extension (“the Extension”) collects, uses, and stores data.
+This Privacy Policy describes how the browser extension (“LuduPro”) collects, uses, and stores data.
 
 ---
 
